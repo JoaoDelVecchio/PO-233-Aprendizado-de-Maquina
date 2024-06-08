@@ -103,6 +103,7 @@ def __main__():
             elif 19 < line_count <= 33:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines1.append(line)
@@ -119,6 +120,7 @@ def __main__():
             elif 35 < line_count <= 49:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines2.append(line)
@@ -133,6 +135,7 @@ def __main__():
             elif 51 < line_count <= 65:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines3.append(line)
@@ -147,6 +150,7 @@ def __main__():
             elif 67 < line_count <= 81:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines4.append(line)
@@ -161,6 +165,7 @@ def __main__():
             elif 83 < line_count <= 97:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines5.append(line)
@@ -175,6 +180,7 @@ def __main__():
             elif 99 < line_count <= 113:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines6.append(line)
@@ -189,6 +195,7 @@ def __main__():
             elif 115 < line_count <= 129:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines7.append(line)
@@ -203,6 +210,7 @@ def __main__():
             elif 131 < line_count <= 145:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines8.append(line)
@@ -217,6 +225,7 @@ def __main__():
             elif 147 < line_count <= 161:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines9.append(line)
@@ -231,6 +240,7 @@ def __main__():
             elif 163 < line_count <= 177:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines10.append(line)
@@ -245,6 +255,7 @@ def __main__():
             elif 179 < line_count <= 193:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines11.append(line)
@@ -259,6 +270,7 @@ def __main__():
             elif 195 < line_count <= 209:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines12.append(line)
@@ -273,6 +285,7 @@ def __main__():
             elif 211 < line_count <= 225:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines13.append(line)
@@ -287,6 +300,7 @@ def __main__():
             elif 227 < line_count <= 241:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines14.append(line)
@@ -301,6 +315,7 @@ def __main__():
             elif 243 < line_count <= 257:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines15.append(line)
@@ -315,6 +330,7 @@ def __main__():
             elif 259 < line_count <= 273:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines16.append(line)
@@ -329,6 +345,7 @@ def __main__():
             elif 275 < line_count <= 289:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines17.append(line)
@@ -343,6 +360,7 @@ def __main__():
             elif 291 < line_count <= 305:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines18.append(line)
@@ -357,6 +375,7 @@ def __main__():
             elif 307 < line_count <= 321:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines19.append(line)
@@ -371,6 +390,7 @@ def __main__():
             elif 323 < line_count <= 337:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines20.append(line)
@@ -385,6 +405,7 @@ def __main__():
             elif 339 < line_count <= 353:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines21.append(line)
@@ -400,6 +421,7 @@ def __main__():
             elif 355 < line_count <= 369:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines22.append(line)
@@ -414,6 +436,7 @@ def __main__():
             elif 371 < line_count <= 385:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines23.append(line)
@@ -428,6 +451,7 @@ def __main__():
             elif 404 < line_count <= 418:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines24.append(line)
@@ -442,6 +466,7 @@ def __main__():
             elif 420 < line_count <= 434:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines25.append(line)
@@ -456,6 +481,7 @@ def __main__():
             elif 436 < line_count <= 450:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines26.append(line)
@@ -470,6 +496,7 @@ def __main__():
             elif 452 < line_count <= 466:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines27.append(line)
@@ -484,6 +511,7 @@ def __main__():
             elif 468 < line_count <= 482:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines28.append(line)
@@ -498,6 +526,7 @@ def __main__():
             elif 484 < line_count <= 498:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines29.append(line)
@@ -512,6 +541,7 @@ def __main__():
             elif 500 < line_count <= 514:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines30.append(line)
@@ -526,6 +556,7 @@ def __main__():
             elif 516 < line_count <= 530:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines31.append(line)
@@ -540,6 +571,7 @@ def __main__():
             elif 532 < line_count <= 546:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines32.append(line)
@@ -554,6 +586,7 @@ def __main__():
             elif 548 < line_count <= 562:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines33.append(line)
@@ -568,6 +601,7 @@ def __main__():
             elif 564 < line_count <= 578:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines34.append(line)
@@ -582,6 +616,7 @@ def __main__():
             elif 580 < line_count <= 594:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines35.append(line)
@@ -596,6 +631,7 @@ def __main__():
             elif 596 < line_count <=610:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines36.append(line)
@@ -610,6 +646,7 @@ def __main__():
             elif 612 < line_count <= 626:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines37.append(line)
@@ -624,6 +661,7 @@ def __main__():
             elif 628 < line_count <= 642:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines38.append(line)
@@ -638,6 +676,7 @@ def __main__():
             elif 644 < line_count <= 658:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines39.append(line)
@@ -652,6 +691,7 @@ def __main__():
             elif 660 < line_count <= 674:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines40.append(line)
@@ -666,6 +706,7 @@ def __main__():
             elif 676 < line_count <= 690:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines41.append(line)
@@ -680,6 +721,7 @@ def __main__():
             elif 692 < line_count <= 706:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines42.append(line)
@@ -694,6 +736,7 @@ def __main__():
             elif 708 < line_count <= 722:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines43.append(line)
@@ -708,6 +751,7 @@ def __main__():
             elif 724 < line_count <= 738:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines44.append(line)
@@ -722,6 +766,7 @@ def __main__():
             elif 740 < line_count <= 754:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines45.append(line)
@@ -736,6 +781,7 @@ def __main__():
             elif 756 < line_count <= 770:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines46.append(line)
@@ -750,6 +796,7 @@ def __main__():
             elif 772 < line_count <= 786:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines47.append(line)
@@ -764,6 +811,7 @@ def __main__():
             elif 788 < line_count <= 802:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines48.append(line)
@@ -778,6 +826,7 @@ def __main__():
             elif 804 < line_count <= 818:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines49.append(line)
@@ -792,6 +841,7 @@ def __main__():
             elif 820 < line_count <= 834:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines50.append(line)
@@ -806,6 +856,7 @@ def __main__():
             elif 836 < line_count <= 850:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines51.append(line)
@@ -820,6 +871,7 @@ def __main__():
             elif 852 < line_count <= 866:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines52.append(line)
@@ -834,6 +886,7 @@ def __main__():
             elif 868 < line_count <= 882:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines53.append(line)
@@ -848,6 +901,7 @@ def __main__():
             elif 884 < line_count <= 898:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines54.append(line)
@@ -862,6 +916,7 @@ def __main__():
             elif 900 < line_count <= 914:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines55.append(line)
@@ -876,6 +931,7 @@ def __main__():
             elif 916 < line_count <= 930:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines56.append(line)
@@ -890,6 +946,7 @@ def __main__():
             elif 932 < line_count <= 946:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines57.append(line)
@@ -904,6 +961,7 @@ def __main__():
             elif 965 < line_count <= 979:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines58.append(line)
@@ -918,6 +976,7 @@ def __main__():
             elif 981 < line_count <= 995:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines59.append(line)
@@ -932,6 +991,7 @@ def __main__():
             elif 997 < line_count <= 1011:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines60.append(line)
@@ -946,6 +1006,7 @@ def __main__():
             elif 1013 < line_count <= 1027:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines61.append(line)
@@ -960,6 +1021,7 @@ def __main__():
             elif 1029 < line_count <= 1043:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines62.append(line)
@@ -974,6 +1036,7 @@ def __main__():
             elif 1045 < line_count <= 1059:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines63.append(line)
@@ -988,6 +1051,7 @@ def __main__():
             elif 1061 < line_count <= 1075:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines64.append(line)
@@ -1002,6 +1066,7 @@ def __main__():
             elif 1077 < line_count <= 1091:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines65.append(line)
@@ -1016,6 +1081,7 @@ def __main__():
             elif 1093 < line_count <= 1107:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines66.append(line)
@@ -1030,6 +1096,7 @@ def __main__():
             elif 1109 < line_count <= 1123:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines67.append(line)
@@ -1044,6 +1111,7 @@ def __main__():
             elif 1125 < line_count <= 1139:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines68.append(line)
@@ -1058,6 +1126,7 @@ def __main__():
             elif 1141 < line_count <= 1155:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines69.append(line)
@@ -1072,6 +1141,7 @@ def __main__():
             elif 1157 < line_count <= 1171:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines70.append(line)
@@ -1086,6 +1156,7 @@ def __main__():
             elif 1173 < line_count <= 1187:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines71.append(line)
@@ -1100,6 +1171,7 @@ def __main__():
             elif 1189 < line_count <= 1203:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines72.append(line)
@@ -1114,6 +1186,7 @@ def __main__():
             elif 1205 < line_count <= 1219:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines73.append(line)
@@ -1128,6 +1201,7 @@ def __main__():
             elif 1221 < line_count <= 1235:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines74.append(line)
@@ -1142,6 +1216,7 @@ def __main__():
             elif 1237< line_count <= 1251:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines75.append(line)
@@ -1156,6 +1231,7 @@ def __main__():
             elif 1253< line_count <= 1267:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines76.append(line)
@@ -1170,6 +1246,7 @@ def __main__():
             elif 1269< line_count <= 1283:
                 line = line.strip()
                 line = line.replace('%', '')
+                line = line.replace('.', '')
                 line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines77.append(line)
