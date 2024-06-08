@@ -1,0 +1,505 @@
+Income Statement
+
+2009 Y
+2010 Y
+2011 Y
+2012 Y
+2013 Y
+2014 Y
+2015 Y
+2016 Y
+2017 Y
+2018 Y
+2019 Y
+2020 Y
+2021 Y
+2022 Y
+2023 Y
+TTM
+2023 Q1
+2023 Q2
+2023 Q3
+2023 Q4
+Sales & Services Revenue
+21,599
+29,361
+30,594
+24,643
+30,782
+32,469
+33,263
+32,711
+35,852
+37,714
+39,045
+45,828
+56,414
+50,210
+50,667
+premium
+premium
+premium
+premium
+premium
+Cost of Revenue
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+premium
+premium
+premium
+premium
+premium
+Gross Profit
+21,599
+29,361
+30,594
+24,643
+30,782
+32,469
+33,263
+32,711
+35,852
+37,714
+39,045
+45,828
+56,414
+50,210
+50,667
+premium
+premium
+premium
+premium
+premium
+Selling, General & Admin
+14,831
+16,437
+16,919
+16,216
+16,915
+18,482
+16,697
+16,465
+17,775
+18,323
+19,325
+21,137
+25,271
+23,958
+25,103
+premium
+premium
+premium
+premium
+premium
+Research & Development
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+premium
+premium
+premium
+premium
+premium
+Operating Income (Loss)
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+premium
+premium
+premium
+premium
+premium
+Non-Operating (Income) Loss
+-1,130
+-6,198
+-6,110
+-596
+-4,558
+-3,591
+-8,495
+-8,848
+-10,403
+-11,237
+-11,301
+-14,418
+-19,668
+-14,089
+-11,813
+premium
+premium
+premium
+premium
+premium
+Pretax Income
+1,130
+6,198
+6,110
+596
+4,558
+3,591
+8,495
+8,848
+10,403
+11,237
+11,301
+14,418
+19,668
+14,089
+11,813
+premium
+premium
+premium
+premium
+premium
+Income (Loss) from Cont Ops
+1,427
+5,455
+4,696
+757
+3,656
+3,681
+6,295
+6,122
+6,235
+8,887
+9,237
+11,179
+15,120
+11,179
+9,230
+premium
+premium
+premium
+premium
+premium
+Basic Weighted Avg Shares
+1,185
+1,362
+1,655
+1,886
+1,906
+1,924
+1,909
+1,849
+1,780
+1,708
+1,617
+1,603
+1,785
+1,691
+1,628
+premium
+premium
+premium
+premium
+premium
+Basic EPS, GAAP
+0.20
+2.81
+1.25
+-0.02
+1.39
+1.64
+2.97
+2.98
+3.14
+4.81
+5.26
+6.55
+8.16
+6.23
+5.24
+premium
+premium
+premium
+premium
+premium
+Diluted Weighted Avg Shares
+1,185
+1,411
+1,675
+1,919
+1,957
+1,971
+1,953
+1,887
+1,821
+1,738
+1,640
+1,624
+1,814
+1,713
+1,646
+premium
+premium
+premium
+premium
+premium
+Diluted EPS, GAAP
+0.20
+2.71
+1.23
+-0.02
+1.36
+1.60
+2.90
+2.92
+3.07
+4.73
+5.19
+6.47
+8.03
+6.15
+5.18
+premium
+premium
+premium
+premium
+premium
+EBITDA
+1,224
+1,419
+1,404
+1,581
+1,511
+1,161
+1,433
+1,736
+1,753
+1,844
+2,643
+3,769
+4,216
+3,998
+4,256
+premium
+premium
+premium
+premium
+premium
+EBITDA Margin (%)
+5.67
+4.83
+4.59
+6.42
+4.91
+3.58
+4.31
+5.31
+4.89
+4.89
+6.77
+8.22
+7.47
+7.96
+8.40
+premium
+premium
+premium
+premium
+premium
+EBITA
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+premium
+premium
+premium
+premium
+premium
+EBIT
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+premium
+premium
+premium
+premium
+premium
+Gross Margin (%)
+100.00
+100.00
+100.00
+100.00
+100.00
+100.00
+100.00
+100.00
+100.00
+100.00
+100.00
+100.00
+100.00
+100.00
+100.00
+premium
+premium
+premium
+premium
+premium
+Operating Margin (%)
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+premium
+premium
+premium
+premium
+premium
+Profit Margin (%)
+6.23
+16.02
+13.43
+0.28
+9.53
+10.68
+18.42
+18.28
+17.05
+23.20
+23.16
+23.99
+26.65
+21.97
+17.93
+premium
+premium
+premium
+premium
+premium
+Sales per Employee
+351,844
+469,461
+494,257
+431,871
+551,708
+581,861
+591,679
+591,401
+622,074
+624,942
+646,109
+673,941
+752,187
+612,317
+633,338
+premium
+premium
+premium
+premium
+premium
+Dividend per Share
+1.46
+0.85
+0.50
+0.25
+0.25
+0.47
+0.76
+0.94
+1.17
+1.39
+1.62
+1.71
+2.34
+3.19
+3.54
+premium
+premium
+premium
+premium
+premium
+Depreciation Expense
+1,224
+1,419
+1,404
+1,581
+1,511
+1,161
+1,433
+1,736
+1,753
+1,844
+2,643
+3,769
+4,216
+3,998
+4,256
+premium
+premium
+premium
+premium
+premium
