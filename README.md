@@ -13,7 +13,7 @@ Bibliotecas  que serão usadas:
 
 Andamento do Projeto:
 1. Não consegui encontrar em nenhuma biblioteca direta para python os dados de Financials, Cash Flow e Balance Income das empresas do S&P500 dos ultimos 15 anos, apenas dos ultimos 5
-2. Encontrei um site que disponibiliza, mas o recurso de fazer o download das informações é pago
+2. Encontrei um site que disponibiliza, mas o recurso de fazer o download das informações é pago: https://roic.ai/quote/MSFT:US/financials
 3. Tentei inicialmente pegar empresa por empresa e mandar o GPT transformar o ctrl C da página em uma tabela em python, mas esse método se mostrou bastante lento, não prátivo e nem otimizado.
 4. Estou criando um script em python que dado um ctrl C e ctrl V específico naquele site o python recebe isso como input, transforma em um dataframe e me gera os arquivos csv bonitinhos
 
