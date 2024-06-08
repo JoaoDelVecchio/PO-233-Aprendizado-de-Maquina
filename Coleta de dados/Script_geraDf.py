@@ -73,23 +73,25 @@ def __main__():
                     # Se a conversão falhar, adiciona a linha como uma string
                     except ValueError:
                         processed_lines2.append(line)
-            """
-            elif 35 < line_count <= 49:
+            
+            elif 51 < line_count <= 65:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines3.append(line)
                 else:
                     # Tenta converter a linha para um inteiro
                     try:
-                        processed_lines3.append(int(line))
+                        processed_lines3.append(float(line))
                     # Se a conversão falhar, adiciona a linha como uma string
                     except ValueError:
                         processed_lines3.append(line)
 
-            elif 86 < line_count <= 106:
+            elif 67 < line_count <= 81:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines4.append(line)
                 else:
@@ -100,9 +102,10 @@ def __main__():
                     except ValueError:
                         processed_lines4.append(line)
 
-            elif 107 < line_count <= 127:
+            elif 83 < line_count <= 97:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines5.append(line)
                 else:
@@ -113,9 +116,10 @@ def __main__():
                     except ValueError:
                         processed_lines5.append(line)
             
-            elif 128 < line_count <= 148:
+            elif 99 < line_count <= 113:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines6.append(line)
                 else:
@@ -126,9 +130,10 @@ def __main__():
                     except ValueError:
                         processed_lines6.append(line)
             
-            elif 149 < line_count <= 169:
+            elif 115 < line_count <= 129:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines7.append(line)
                 else:
@@ -139,9 +144,10 @@ def __main__():
                     except ValueError:
                         processed_lines7.append(line)
             
-            elif 170 < line_count <= 190:
+            elif 131 < line_count <= 145:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines8.append(line)
                 else:
@@ -152,9 +158,10 @@ def __main__():
                     except ValueError:
                         processed_lines8.append(line)
 
-            elif 191 < line_count <= 211:
+            elif 147 < line_count <= 161:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines9.append(line)
                 else:
@@ -165,9 +172,10 @@ def __main__():
                     except ValueError:
                         processed_lines9.append(line)
                         
-            elif 212 < line_count <= 232:
+            elif 163 < line_count <= 177:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines10.append(line)
                 else:
@@ -177,10 +185,11 @@ def __main__():
                     # Se a conversão falhar, adiciona a linha como uma string
                     except ValueError:
                         processed_lines10.append(line)
-                        
-            elif 233 < line_count <= 253:
+            
+            elif 179 < line_count <= 193:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines11.append(line)
                 else:
@@ -191,9 +200,10 @@ def __main__():
                     except ValueError:
                         processed_lines11.append(line)
                         
-            elif 254 < line_count <= 274:
+            elif 195 < line_count <= 209:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines12.append(line)
                 else:
@@ -204,9 +214,10 @@ def __main__():
                     except ValueError:
                         processed_lines12.append(line)
                         
-            elif 275 < line_count <= 295:
+            elif 211 < line_count <= 225:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines13.append(line)
                 else:
@@ -217,9 +228,10 @@ def __main__():
                     except ValueError:
                         processed_lines13.append(line)
                         
-            elif 296 < line_count <= 316:
+            elif 227 < line_count <= 241:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines14.append(line)
                 else:
@@ -230,9 +242,10 @@ def __main__():
                     except ValueError:
                         processed_lines14.append(line)
                         
-            elif 317 < line_count <= 337:
+            elif 243 < line_count <= 257:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines15.append(line)
                 else:
@@ -243,9 +256,10 @@ def __main__():
                     except ValueError:
                         processed_lines15.append(line)
                         
-            elif 338 < line_count <= 358:
+            elif 259 < line_count <= 273:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines16.append(line)
                 else:
@@ -256,9 +270,10 @@ def __main__():
                     except ValueError:
                         processed_lines16.append(line)
                         
-            elif 359 < line_count <= 379:
+            elif 275 < line_count <= 289:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines17.append(line)
                 else:
@@ -269,9 +284,10 @@ def __main__():
                     except ValueError:
                         processed_lines17.append(line)
                         
-            elif 380 < line_count <= 400:
+            elif 291 < line_count <= 305:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines18.append(line)
                 else:
@@ -282,9 +298,10 @@ def __main__():
                     except ValueError:
                         processed_lines18.append(line)
                         
-            elif 401 < line_count <= 421:
+            elif 307 < line_count <= 321:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines19.append(line)
                 else:
@@ -295,9 +312,10 @@ def __main__():
                     except ValueError:
                         processed_lines19.append(line)
                         
-            elif 422 < line_count <= 442:
+            elif 323 < line_count <= 337:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines20.append(line)
                 else:
@@ -308,9 +326,10 @@ def __main__():
                     except ValueError:
                         processed_lines20.append(line)
                         
-            elif 443 < line_count <= 463:
+            elif 339 < line_count <= 353:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines21.append(line)
                 else:
@@ -320,10 +339,12 @@ def __main__():
                     # Se a conversão falhar, adiciona a linha como uma string
                     except ValueError:
                         processed_lines21.append(line)
-                        
-            elif 464 < line_count <= 484:
+
+                  
+            elif 355 < line_count <= 369:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines22.append(line)
                 else:
@@ -334,9 +355,10 @@ def __main__():
                     except ValueError:
                         processed_lines22.append(line)
                         
-            elif 485 < line_count <= 505:
+            elif 371 < line_count <= 385:
                 line = line.strip()
-                line = line.replace(',', '')
+                line = line.replace('%', '')
+                line = line.replace(',', '.')
                 if line == "premium" or line == "-":
                     processed_lines23.append(line)
                 else:
@@ -346,34 +368,15 @@ def __main__():
                     # Se a conversão falhar, adiciona a linha como uma string
                     except ValueError:
                         processed_lines23.append(line)
-            """
-            
 
+            
 
     data = {
         "Year": ["2010 Y", "2011 Y", "2012 Y", "2013 Y", "2014 Y", "2015 Y", "2016 Y", "2017 Y", "2018 Y", "2019 Y", "2020 Y", "2021 Y", "2022 Y",
                   "2023 Y"],
         "Sales & Services Revenue": processed_lines1,
-        "Cost of Revenue": processed_lines2
-    }
-
-    # transformar a tabela anterior em um dataframe por meio da biblioteca pandas
-    df = pd.DataFrame(data)
-    # eliminando todas as linhas que possuem um elemento escrito "Premium"
-    df = df[~df.apply(lambda row: row.astype(str).str.contains('premium').any(), axis=1)]
-    # Transformar esse dataFrame em um .csv
-    df.to_csv('DATA_.csv', index=False)
-
-
-    print(df)
-
-__main__()
-
-
-
-
-""""
-"Gross Profit": processed_lines3,
+        "Cost of Revenue": processed_lines2,
+        "Gross Profit": processed_lines3,
         "Selling, General & Admin": processed_lines4,
         "Research & Development": processed_lines5,
         "Operating Income (Loss)": processed_lines6,
@@ -394,4 +397,20 @@ __main__()
         "Sales per Employee": processed_lines21,
         "Dividend per Share": processed_lines22,
         "Depreciation Expense": processed_lines23
-"""
+    }
+    print(data)
+    # transformar a tabela anterior em um dataframe por meio da biblioteca pandas
+    df = pd.DataFrame(data)
+    # eliminando todas as linhas que possuem um elemento escrito "Premium"
+    df = df[~df.apply(lambda row: row.astype(str).str.contains('premium').any(), axis=1)]
+    # Transformar esse dataFrame em um .csv
+    df.to_csv('DATA_.csv', index=False)
+
+
+    print(df)
+
+__main__()
+
+
+
+
