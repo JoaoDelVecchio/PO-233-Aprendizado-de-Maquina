@@ -20,7 +20,8 @@ Projeto de aprendizado de máquina
 
 
 **Doing:**
-6. Finalmente consegui criar um Script que gere uma tabela para cada empresa dos ultimos 15 anos dos 75 indicadores escolhidos, fiz isso para 10 empresas já
+
+1. Finalmente consegui criar um Script que gere uma tabela para cada empresa dos ultimos 15 anos dos 75 indicadores escolhidos, fiz isso para 10 empresas já
 
 
 **Done:**
