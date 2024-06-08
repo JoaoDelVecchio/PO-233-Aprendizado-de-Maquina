@@ -13,6 +13,8 @@ Projeto de aprendizado de máquina
 
 # **To Do**
 1. Pré Processamento: Dado o dataframe com que iremos trabalhar, realizar o pré-processamento, eliminando talvez colunas desnecessárias, removendo as colunas indesejadas, tratando os dados faltantes e realizando possíveis alterações.
+2. Análise Exploratória: Realizar uma Análise exploratória de nossos dados, para obter insights iniciais.
+3. Aplicação do Modelo: Aplicar e projetar o modelo idealizado com base no nosso dataframe.
 
 
 # **Doing:**
