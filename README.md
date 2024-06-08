@@ -16,6 +16,7 @@ Andamento do Projeto:
 2. Encontrei um site que disponibiliza, mas o recurso de fazer o download das informações é pago: https://roic.ai/quote/MSFT:US/financials
 3. Tentei inicialmente pegar empresa por empresa e mandar o GPT transformar o ctrl C da página em uma tabela em python, mas esse método se mostrou bastante lento, não prátivo e nem otimizado.
 4. Estou criando um script em python que dado um ctrl C e ctrl V específico naquele site o python recebe isso como input, transforma em um dataframe e me gera os arquivos csv bonitinhos
+5. Acho que uma coisa mais interessante a fazer é pegar a porcentagem de mudança de um ano para o outro
 
 
 Tarefas:
