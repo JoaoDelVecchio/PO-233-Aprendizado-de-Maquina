@@ -59,7 +59,7 @@ def __main__():
         next(reader)"""
 
 
-    with open('arquivo.txt', 'r') as file:
+    with open('entrada.txt', 'r') as file:
         line_count = 0
         processed_lines = []
         processed_lines1 = []
