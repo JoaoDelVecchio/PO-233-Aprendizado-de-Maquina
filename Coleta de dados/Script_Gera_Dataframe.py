@@ -1350,7 +1350,7 @@ def __main__():
     # eliminando todas as linhas que possuem um elemento escrito "Premium"
     df = df[~df.apply(lambda row: row.astype(str).str.contains('premium').any(), axis=1)]
     # Transformar esse dataFrame em um .csv
-    df.to_csv('DATA_AAPL.csv', index=False)
+    df.to_csv('DATA_ABT.csv', index=False)
 
 
     print(df)
