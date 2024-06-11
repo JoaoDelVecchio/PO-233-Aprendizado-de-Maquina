@@ -1,4 +1,5 @@
 import pandas as pd
+import yfinance as yf
 import csv
 import io
 import re
@@ -1344,7 +1345,7 @@ def __main__():
         "Cash Flow to Net Income":processed_lines77,
 
     }
-    print(data)
+    # print(data)
     # transformar a tabela anterior em um dataframe por meio da biblioteca pandas
     df = pd.DataFrame(data)
     # eliminando todas as linhas que possuem um elemento escrito "Premium"
@@ -1353,6 +1354,8 @@ def __main__():
     df.to_csv('DATA_ABT.csv', index=False)
 
 
-    print(df)
+
+
+    # print(df)
 
 __main__()
