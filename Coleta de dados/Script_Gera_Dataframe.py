@@ -4,7 +4,7 @@ import datetime as datetime
 
 def __main__():
 
-    with open('C:\\Users\\delve\\OneDrive\\Eu\\GitHub\\PO-233-Aprendizado-de-Maquina\\Coleta de dados\\entradas\\entrada_MSFT.txt', 'r') as file:
+    with open('C:\\Users\\delve\\OneDrive\\Eu\\GitHub\\PO-233-Aprendizado-de-Maquina\\Coleta de dados\\Entradas\\entrada_GOOGL.txt', 'r') as file:
         line_count = 0
         processed_lines = []
         processed_lines1 = []
@@ -1356,7 +1356,7 @@ def __main__():
     sp500_returns = sp500_hist['Close'].pct_change()
 
     # Definindo o ticker da empresa que iremos comparar
-    ticker = 'MSFT'
+    ticker = 'GOOGL'
     company = yf.Ticker(ticker)
     company_hist = company.history(start=start_date, end=end_date).resample('YE').last()
     company_returns = company_hist['Close'].pct_change()
@@ -1375,6 +1375,6 @@ def __main__():
     df_combined = df_combined[columns]
 
     # Salvando arquivo
-    df_combined.to_csv('C:\\Users\\delve\\OneDrive\\Eu\\GitHub\\PO-233-Aprendizado-de-Maquina\\Coleta de dados\\Data\\Data_MSFT.csv', index = True)
+    df_combined.to_csv('C:\\Users\\delve\\OneDrive\\Eu\\GitHub\\PO-233-Aprendizado-de-Maquina\\Coleta de dados\\Data\\Data_GOOGL.csv', index = True)
 
 __main__()
