@@ -4,14 +4,14 @@ Problemas> META, NVIDIA começam a me dar dados apenas a partir de 2010, preciso
 
 
 **To Do**
-1. Dada as tabelas Data Geradas no passo atual, começar primeiro com 10 tabelas e, então, agrupar em cada uma destas a ultima coluna necessária, a qual seria o retorno percentual relativo dessa emrpesa com o índice do S&P500.
-4.  Pensar melhor no modelo que iremos escolher antes de pular para a próxima tarefa.
+1.  Pensar melhor no modelo que iremos escolher antes de pular para a próxima tarefa.
 5. Agrupar então cada um desses Dataframes completos em um final: Cada linha corresponde a uma empresa e um ano desta.
 
 
 **Doing:**
 
 1. Finalmente consegui criar um Script que gere uma tabela para cada empresa dos ultimos 15 anos dos 75 indicadores escolhidos, fiz isso para 10 empresas já
+2. Dada as tabelas Data Geradas no passo atual, começar primeiro com 10 tabelas e, então, agrupar em cada uma destas a ultima coluna necessária, a qual seria o retorno percentual relativo dessa emrpesa com o índice do S&P500.
 
 
 **Done:**
