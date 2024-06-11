@@ -1,12 +1,13 @@
 import pandas as pd
 import yfinance as yf
+import datetime as datetime
 import csv
 import io
 import re
 
 def __main__():
 
-    with open('entrada.txt', 'r') as file:
+    with open('C:\\Users\\delve\\OneDrive\\Eu\\GitHub\\PO-233-Aprendizado-de-Maquina\\Coleta de dados\\entrada.txt', 'r') as file:
         line_count = 0
         processed_lines = []
         processed_lines1 = []
@@ -1264,8 +1265,8 @@ def __main__():
             
 
     data = {
-        "Year": ["2010 Y", "2011 Y", "2012 Y", "2013 Y", "2014 Y", "2015 Y", "2016 Y", "2017 Y", "2018 Y", "2019 Y", "2020 Y", "2021 Y", "2022 Y",
-                  "2023 Y"],
+        "Year": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022",
+                  "2023"],
         "Sales & Services Revenue": processed_lines1,
         "Cost of Revenue": processed_lines2,
         "Gross Profit": processed_lines3,
@@ -1345,17 +1346,43 @@ def __main__():
         "Cash Flow to Net Income":processed_lines77,
 
     }
-    # print(data)
+    
     # transformar a tabela anterior em um dataframe por meio da biblioteca pandas
     df = pd.DataFrame(data)
+
     # eliminando todas as linhas que possuem um elemento escrito "Premium"
     df = df[~df.apply(lambda row: row.astype(str).str.contains('premium').any(), axis=1)]
-    # Transformar esse dataFrame em um .csv
-    df.to_csv('DATA_ABT.csv', index=False)
+    df = df.rename(columns={'Year': 'Date'})
+
+    # Baixando os dados de retorno anual do S&P500 dos ultimos 15 anos
+    sp500 = yf.Ticker('^GSPC')
+    start_date = "2008-01-01"
+    end_date = "2024-01-01"
+    sp500_hist = sp500.history(start=start_date, end=end_date).resample('YE').last()
+    sp500_returns = sp500_hist['Close'].pct_change()
+
+    # Definindo o ticker da empresa que iremos comparar
+    ticker = 'AAPL'
+    company = yf.Ticker(ticker)
+    company_hist = company.history(start=start_date, end=end_date).resample('YE').last()
+    company_returns = company_hist['Close'].pct_change()
+
+    # Calculando a performance relativa
+    performance_relative = company_returns - sp500_returns
+    df2 = pd.DataFrame(performance_relative)
+    df2.index = df2.index.strftime('%Y')
+    df2 = df2.iloc[2:]
+    df2 = df2.rename(columns={'Close': 'Performance'})
+    df2.to_csv('performance')
+    
+    # Combinando os dataframes
+    df_combined = pd.merge(df, df2, on='Date', how='left')
+    columns = [col for col in df_combined.columns if col != 'Performance'] + ['Performance']
+    df_combined = df_combined[columns]
 
 
+    # Salvando arquivo
+    df_combined.to_csv('C:\\Users\\delve\\OneDrive\\Eu\\GitHub\\PO-233-Aprendizado-de-Maquina\\Coleta de dados\\Data\\Data_AAPL.csv', index = True)
 
-
-    # print(df)
 
 __main__()
