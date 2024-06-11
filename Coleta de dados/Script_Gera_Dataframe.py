@@ -1,13 +1,10 @@
 import pandas as pd
 import yfinance as yf
 import datetime as datetime
-import csv
-import io
-import re
 
 def __main__():
 
-    with open('C:\\Users\\delve\\OneDrive\\Eu\\GitHub\\PO-233-Aprendizado-de-Maquina\\Coleta de dados\\entrada.txt', 'r') as file:
+    with open('C:\\Users\\delve\\OneDrive\\Eu\\GitHub\\PO-233-Aprendizado-de-Maquina\\Coleta de dados\\entradas\\entrada_MSFT.txt', 'r') as file:
         line_count = 0
         processed_lines = []
         processed_lines1 = []
@@ -1259,10 +1256,7 @@ def __main__():
                     # Se a conversão falhar, adiciona a linha como uma string
                     except ValueError:
                         processed_lines77.append(line)
-                        
-            
-
-            
+                                   
 
     data = {
         "Year": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022",
@@ -1362,7 +1356,7 @@ def __main__():
     sp500_returns = sp500_hist['Close'].pct_change()
 
     # Definindo o ticker da empresa que iremos comparar
-    ticker = 'AAPL'
+    ticker = 'MSFT'
     company = yf.Ticker(ticker)
     company_hist = company.history(start=start_date, end=end_date).resample('YE').last()
     company_returns = company_hist['Close'].pct_change()
@@ -1380,9 +1374,7 @@ def __main__():
     columns = [col for col in df_combined.columns if col != 'Performance'] + ['Performance']
     df_combined = df_combined[columns]
 
-
     # Salvando arquivo
-    df_combined.to_csv('C:\\Users\\delve\\OneDrive\\Eu\\GitHub\\PO-233-Aprendizado-de-Maquina\\Coleta de dados\\Data\\Data_AAPL.csv', index = True)
-
+    df_combined.to_csv('C:\\Users\\delve\\OneDrive\\Eu\\GitHub\\PO-233-Aprendizado-de-Maquina\\Coleta de dados\\Data\\Data_MSFT.csv', index = True)
 
 __main__()
