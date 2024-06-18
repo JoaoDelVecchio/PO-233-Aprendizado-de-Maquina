@@ -1,16 +1,5 @@
 # Projeto de Machile Learning aplicado a finanças.
 Projeto de aprendizado de máquina
-
-**Bibliotecas  que serão usadas:**
-1. numpy as np para linear Algebra
-2. datetime as dt para datas
-3. yfinance as yf para conseguir os dados financeiros
-4. pandas as pd para processamento de dados
-5. matplotlib.pyplot as plt
-6. seaborn as sns
-7. plotly.express as px
-8. plotly.graph_objects as go
-
 # **To Do**
 
 
